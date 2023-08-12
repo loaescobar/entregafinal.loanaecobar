@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body {
+  background-color: rgba(42, 23, 55, 0.4);
+}
+
+li {
+  list-style: none;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
+.color {
+  background-color: rgba(42, 23, 55, 0.9);
+}
+
+.color-font {
+  color: white;
+}
+
+
+
+.color-boton {
+  background-color: rgba(42, 23, 55, 0.9);
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgba(77, 76, 78, 0.7);
+  border: 1px solid white;
+  color: white;
+}
+
+.fondo-btn {
+  background-color: rgb(87, 87, 87);
+}
+
+/* ===============================PAGINA CONOCENOS================================= */
+/*conocenos style*/
+.mapa {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .p-conocenos {
+    margin: 0 2em;
+  }
+
+/* ===============================PAGINA FORMULARIO================================= */
+.formulario {
+    background-color: rgba(77, 76, 78, 0.4);
+    margin-bottom: 2em;
+  }
+  
+  .lista-formulario {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.3em;
+  }
